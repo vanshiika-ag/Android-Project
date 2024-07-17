@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b9"
+    android:id="@+id/mylayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tictactoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/creepster"
+        android:text="Tic Tac Toe"
+        android:textSize="70sp"
+        android:textColor="#5F0D75"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt00"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bt10"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@+id/bt01"
+        android:backgroundTint="#45187E7D"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bt11"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#30CA1155"
+        android:onClick="allButton"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bt12"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@+id/bt01"
+        android:backgroundTint="#45187E7D"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@+id/bt11"
+        android:backgroundTint="#30CA1155"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#35FFB300"
+        android:onClick="allButton"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="-112dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@+id/bt11"
+        android:backgroundTint="#30CA1155"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt20"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt11"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toLeftOf="@+id/bt21"
+        android:backgroundTint="#45187E7D"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="#30CA1155"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bt11"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toRightOf="@id/bt21"
+        android:backgroundTint="#45187E7D"
+        android:onClick="allButton"
+        android:textSize="60sp"
+        android:textColor="@color/white"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resetbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="#509222AF"
+        android:fontFamily="@font/barriecito"
+        android:inputType="text"
+        android:onClick="reset"
+        android:text="Play Again"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/checkbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resetbt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25sp"
+        android:elevation="8dp"
+        android:fontFamily="@font/bungee_shade"
+        android:textColor="#7F109C"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</RelativeLayout>
