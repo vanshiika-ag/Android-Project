@@ -4,4 +4,5 @@ Implemented efficient game logic in Java to manage player moves, validate inputs
 **** Technologies Used****
 
 Programming Language: Java
+
 Development Tools: Android Studio, XML
